@@ -5,6 +5,6 @@ elif userReply.lower() == "envelope":
     print("We have many envelope sizes to choose from.")
 elif userReply.lower() == "copy":
     copies = input("How many copies would you like? (Enter a number) ")
-    print("Here are {} copies.".format(copies))
+    print(f"Here are {copies} copies.")
 else:
     print("Thank you, please come again.")  
